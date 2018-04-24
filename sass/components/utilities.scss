@@ -10,7 +10,7 @@
 	padding:20px;
 }
 
-/* SLIDER*/
+/* SLIDER-IMAGES*/
 
 .slider-1 {
 	width: 100%;
@@ -39,8 +39,39 @@
 	height: 90vh;
 
 }
+/*SLIDER-TEXT*/
+
+.slider-2 {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+	position:absolute;
+	top:90px;
+	bottom:0px;
+	background: rgba(0, 0, 0, 0.4);
+}
+
+.slider-2 ul {
+	margin-top:0;
+	display: flex;
+	padding: 0;
+	width: 400%;
+	height:90vh;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider-2 li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-2 p {
+	width: 100%;
+	padding:  5em 9em;
 
 
+}
 
 @keyframes cambio {
 	0% {margin-left: 0;}
@@ -54,4 +85,12 @@
 	
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
+}
+/*TEXT-STYLES*/
+
+.message-text{
+	color:#FFFFFF;
+	font-family: 'Nunito', sans-serif;
+	font-size: 27px;
+	text-align: center;
 }
