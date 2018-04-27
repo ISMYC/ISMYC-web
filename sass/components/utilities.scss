@@ -1,16 +1,21 @@
-.em4{
-	width:4em;
-}
+.em4{width:4em;}
 
-.margin-20 {
-	margin:20px;
-}
+.margin-0 {margin: 0;}
+.margin-20 {margin:20px;}
 
-.padding-20 {
-	padding:20px;
-}
+.padding-20 {padding:20px;}
 
-/* SLIDER-IMAGES*/
+.padding-sides-2{ padding: 0 2rem;}
+
+@media #{$medium-and-up} {
+  .padding-sides-2 {
+    padding:5rem;}
+  }
+
+
+.padding-sides-10{ padding: 0 10em;}
+
+/* SLIDER-IMAGES
 
 .slider-1 {
 	width: 100%;
@@ -40,7 +45,7 @@
 
 }
 /*SLIDER-TEXT*/
-
+/*
 .slider-2 {
 	width: 100%;
 	margin: auto;
@@ -85,7 +90,7 @@
 	
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
-}
+}/*
 /*TEXT-STYLES*/
 
 .message-text{
@@ -93,4 +98,34 @@
 	font-family: 'Nunito', sans-serif;
 	font-size: 27px;
 	text-align: center;
+}
+
+
+.text-intro{
+	color:#FFFFFF;
+	font-family: 'Nunito', sans-serif;
+	font-size: 2rem;
+	text-align: center;
+}
+h1{
+	color:#00545F;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	font-size: 3.2rem;
+}
+
+/* IMAGES-STYLE*/
+
+.black-filter{
+	background-color: rgba(0,0,0,0.5);
+	height: 100vh;
+}
+
+.service-1{
+	background-image: url('../images/tlaloc.jpg');
+	width: 85%;
+	height: 300px;
+	margin: auto;
+	transition: box-shadow .25s;
+	border-radius: 20%;
 }

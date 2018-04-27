@@ -1,114 +1,67 @@
-/* line 1, ../../sass/components/utilities.scss */
-.em4 {
-  width: 4em;
-}
+/*
+Error: Undefined variable: "$medium-and-up".
+        on line 10 of /Users/Magou/Documents/WEB/ISMYC-web/sass/components/utilities.scss
 
-/* line 5, ../../sass/components/utilities.scss */
-.margin-20 {
-  margin: 20px;
-}
+5: 
+6: .padding-20 {padding:20px;}
+7: 
+8: .padding-sides-2{ padding: 0 2rem;}
+9: 
+10: @media #{$medium-and-up} {
+11:   .padding-sides-2 {
+12:     padding:5rem;}
+13:   }
+14: 
+15: 
 
-/* line 9, ../../sass/components/utilities.scss */
-.padding-20 {
-  padding: 20px;
-}
-
-/* SLIDER-IMAGES*/
-/* line 15, ../../sass/components/utilities.scss */
-.slider-1 {
-  width: 100%;
-  height: 90vh;
-  margin: auto;
-  overflow: hidden;
-}
-
-/* line 22, ../../sass/components/utilities.scss */
-.slider-1 ul {
-  margin-top: 0;
-  display: flex;
-  padding: 0;
-  width: 400%;
-  height: 90vh;
-  animation: cambio 20s infinite alternate linear;
-}
-
-/* line 32, ../../sass/components/utilities.scss */
-.slider-1 li {
-  width: 100%;
-  list-style: none;
-}
-
-/* line 37, ../../sass/components/utilities.scss */
-.slider-1 img {
-  width: 100%;
-  height: 90vh;
-}
-
-/*SLIDER-TEXT*/
-/* line 44, ../../sass/components/utilities.scss */
-.slider-2 {
-  width: 100%;
-  margin: auto;
-  overflow: hidden;
-  position: absolute;
-  top: 90px;
-  bottom: 0px;
-  background: rgba(0, 0, 0, 0.4);
-}
-
-/* line 54, ../../sass/components/utilities.scss */
-.slider-2 ul {
-  margin-top: 0;
-  display: flex;
-  padding: 0;
-  width: 400%;
-  height: 90vh;
-  animation: cambio 20s infinite alternate linear;
-}
-
-/* line 64, ../../sass/components/utilities.scss */
-.slider-2 li {
-  width: 100%;
-  list-style: none;
-}
-
-/* line 69, ../../sass/components/utilities.scss */
-.slider-2 p {
-  width: 100%;
-  padding: 5em 9em;
-}
-
-@keyframes cambio {
-  0% {
-    margin-left: 0;
-  }
-  20% {
-    margin-left: 0;
-  }
-  25% {
-    margin-left: -100%;
-  }
-  45% {
-    margin-left: -100%;
-  }
-  50% {
-    margin-left: -200%;
-  }
-  70% {
-    margin-left: -200%;
-  }
-  75% {
-    margin-left: -300%;
-  }
-  100% {
-    margin-left: -300%;
-  }
-}
-/*TEXT-STYLES*/
-/* line 91, ../../sass/components/utilities.scss */
-.message-text {
-  color: #FFFFFF;
-  font-family: 'Nunito', sans-serif;
-  font-size: 27px;
-  text-align: center;
-}
+Backtrace:
+/Users/Magou/Documents/WEB/ISMYC-web/sass/components/utilities.scss:10
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/script/tree/node.rb:50:in `perform'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/script/tree/interpolation.rb:100:in `_perform'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/script/tree/node.rb:50:in `perform'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:536:in `run_interp_no_strip'
+org/jruby/RubyArray.java:2412:in `map'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:534:in `run_interp_no_strip'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:541:in `run_interp'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:509:in `visit_media'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+org/jruby/RubyArray.java:2412:in `map'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:167:in `visit_children'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/root_node.rb:20:in `render'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/engine.rb:268:in `render'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+org/jruby/RubyMethod.java:128:in `call'
+file:/Applications/compass.app/Contents/Java/compass-app.jar!/hook/compass_patch.rb:108:in `update_stylesheet'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `update_stylesheets'
+org/jruby/RubyArray.java:1613:in `each'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/plugin/compiler.rb:328:in `watch'
+org/jruby/RubyProc.java:271:in `call'
+/Applications/compass.app/Contents/Resources/lib/ruby/jruby/listen-1.3.1-patched/lib/listen/listener.rb:252:in `on_change'
+/Applications/compass.app/Contents/Resources/lib/ruby/jruby/listen-1.3.1-patched/lib/listen/listener.rb:290:in `initialize_adapter'
+org/jruby/RubyProc.java:271:in `call'
+/Applications/compass.app/Contents/Resources/lib/ruby/jruby/listen-1.3.1-patched/lib/listen/adapter.rb:252:in `report_changes'
+/Applications/compass.app/Contents/Resources/lib/ruby/jruby/listen-1.3.1-patched/lib/listen/adapter.rb:321:in `poll_changed_directories'
+/Applications/compass.app/Contents/Resources/lib/ruby/jruby/listen-1.3.1-patched/lib/listen/adapter.rb:297:in `start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$medium-and-up\".\A         on line 10 of /Users/Magou/Documents/WEB/ISMYC-web/sass/components/utilities.scss\A \A 5: \A 6: .padding-20 {padding:20px;}\A 7: \A 8: .padding-sides-2{ padding: 0 2rem;}\A 9: \A 10: @media #{$medium-and-up} {\A 11:   .padding-sides-2 {\A 12:     padding:5rem;}\A 13:   }\A 14: \A 15: "; }

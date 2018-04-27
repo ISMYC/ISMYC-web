@@ -3408,7 +3408,7 @@ video.responsive-video {
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 500px;
+  height: 90vh;
 }
 /* line 261, ../sass/components/_global.scss */
 .parallax-container .parallax {
@@ -5011,8 +5011,8 @@ nav {
   color: #00545F;
   background-color: white;
   width: 100%;
-  height: 56px;
-  line-height: 56px;
+  height: 70px;
+  line-height: 70px;
 }
 /* line 2, ../sass/components/_navbar.scss */
 nav.nav-extended {
@@ -5020,7 +5020,7 @@ nav.nav-extended {
 }
 /* line 5, ../sass/components/_navbar.scss */
 nav.nav-extended .nav-wrapper {
-  min-height: 56px;
+  min-height: 70px;
   height: auto;
 }
 /* line 10, ../sass/components/_navbar.scss */
@@ -5038,8 +5038,8 @@ nav [class^="mdi-"], nav [class*="mdi-"],
 nav i.material-icons {
   display: block;
   font-size: 24px;
-  height: 56px;
-  line-height: 56px;
+  height: 70px;
+  line-height: 70px;
 }
 /* line 34, ../sass/components/_navbar.scss */
 nav .nav-wrapper {
@@ -5060,13 +5060,13 @@ nav .sidenav-trigger {
   float: left;
   position: relative;
   z-index: 1;
-  height: 56px;
+  height: 70px;
   margin: 0 18px;
 }
 /* line 55, ../sass/components/_navbar.scss */
 nav .sidenav-trigger i {
-  height: 56px;
-  line-height: 56px;
+  height: 70px;
+  line-height: 70px;
 }
 /* line 63, ../sass/components/_navbar.scss */
 nav .brand-logo {
@@ -5201,7 +5201,7 @@ nav .input-field label.active i {
 /* line 191, ../sass/components/_navbar.scss */
 .navbar-fixed {
   position: relative;
-  height: 56px;
+  height: 70px;
   z-index: 997;
 }
 /* line 196, ../sass/components/_navbar.scss */
@@ -9634,112 +9634,151 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
   width: 4em;
 }
 
-/* line 5, ../sass/components/utilities.scss */
+/* line 3, ../sass/components/utilities.scss */
+.margin-0 {
+  margin: 0;
+}
+
+/* line 4, ../sass/components/utilities.scss */
 .margin-20 {
   margin: 20px;
 }
 
-/* line 9, ../sass/components/utilities.scss */
+/* line 6, ../sass/components/utilities.scss */
 .padding-20 {
   padding: 20px;
 }
 
-/* SLIDER-IMAGES*/
-/* line 15, ../sass/components/utilities.scss */
+/* line 8, ../sass/components/utilities.scss */
+.padding-sides-2 {
+  padding: 0 2rem;
+}
+
+@media only screen and (min-width: 601px) {
+  /* line 11, ../sass/components/utilities.scss */
+  .padding-sides-2 {
+    padding: 5rem;
+  }
+}
+/* line 16, ../sass/components/utilities.scss */
+.padding-sides-10 {
+  padding: 0 10em;
+}
+
+/* SLIDER-IMAGES
+
 .slider-1 {
-  width: 100%;
-  height: 90vh;
-  margin: auto;
-  overflow: hidden;
+	width: 100%;
+	height: 90vh;
+	margin: auto;
+	overflow: hidden;
 }
 
-/* line 22, ../sass/components/utilities.scss */
 .slider-1 ul {
-  margin-top: 0;
-  display: flex;
-  padding: 0;
-  width: 400%;
-  height: 90vh;
-  animation: cambio 20s infinite alternate linear;
+	margin-top:0;
+	display: flex;
+	padding: 0;
+	width: 400%;
+	height:90vh;
+	
+	animation: cambio 20s infinite alternate linear;
 }
 
-/* line 32, ../sass/components/utilities.scss */
 .slider-1 li {
-  width: 100%;
-  list-style: none;
+	width: 100%;
+	list-style: none;
 }
 
-/* line 37, ../sass/components/utilities.scss */
 .slider-1 img {
-  width: 100%;
-  height: 90vh;
-}
+	width: 100%;
+	height: 90vh;
 
+}
 /*SLIDER-TEXT*/
-/* line 44, ../sass/components/utilities.scss */
+/*
 .slider-2 {
-  width: 100%;
-  margin: auto;
-  overflow: hidden;
-  position: absolute;
-  top: 90px;
-  bottom: 0px;
-  background: rgba(0, 0, 0, 0.4);
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+	position:absolute;
+	top:90px;
+	bottom:0px;
+	background: rgba(0, 0, 0, 0.4);
 }
 
-/* line 54, ../sass/components/utilities.scss */
 .slider-2 ul {
-  margin-top: 0;
-  display: flex;
-  padding: 0;
-  width: 400%;
-  height: 90vh;
-  animation: cambio 20s infinite alternate linear;
+	margin-top:0;
+	display: flex;
+	padding: 0;
+	width: 400%;
+	height:90vh;
+	
+	animation: cambio 20s infinite alternate linear;
 }
 
-/* line 64, ../sass/components/utilities.scss */
 .slider-2 li {
-  width: 100%;
-  list-style: none;
+	width: 100%;
+	list-style: none;
 }
 
-/* line 69, ../sass/components/utilities.scss */
 .slider-2 p {
-  width: 100%;
-  padding: 5em 9em;
+	width: 100%;
+	padding:  5em 9em;
+
+
 }
 
 @keyframes cambio {
-  0% {
-    margin-left: 0;
-  }
-  20% {
-    margin-left: 0;
-  }
-  25% {
-    margin-left: -100%;
-  }
-  45% {
-    margin-left: -100%;
-  }
-  50% {
-    margin-left: -200%;
-  }
-  70% {
-    margin-left: -200%;
-  }
-  75% {
-    margin-left: -300%;
-  }
-  100% {
-    margin-left: -300%;
-  }
-}
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}/*
 /*TEXT-STYLES*/
-/* line 91, ../sass/components/utilities.scss */
+/* line 96, ../sass/components/utilities.scss */
 .message-text {
   color: #FFFFFF;
   font-family: 'Nunito', sans-serif;
   font-size: 27px;
   text-align: center;
+}
+
+/* line 104, ../sass/components/utilities.scss */
+.text-intro {
+  color: #FFFFFF;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* line 110, ../sass/components/utilities.scss */
+h1 {
+  color: #00545F;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+
+/* IMAGES-STYLE*/
+/* line 119, ../sass/components/utilities.scss */
+.black-filter {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+}
+
+/* line 124, ../sass/components/utilities.scss */
+.service-1 {
+  background-image: url("../images/tlaloc.jpg");
+  width: 85%;
+  height: 300px;
+  margin: auto;
+  transition: box-shadow .25s;
+  border-radius: 20%;
 }
