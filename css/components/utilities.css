@@ -4,37 +4,82 @@
 }
 
 /* line 3, ../../sass/components/utilities.scss */
+.margin-auto {
+  margin: auto;
+}
+
+/* line 4, ../../sass/components/utilities.scss */
 .margin-0 {
   margin: 0;
 }
 
-/* line 4, ../../sass/components/utilities.scss */
+/* line 5, ../../sass/components/utilities.scss */
 .margin-20 {
   margin: 20px;
 }
 
-/* line 6, ../../sass/components/utilities.scss */
+/* line 7, ../../sass/components/utilities.scss */
+.margin-top-5 {
+  margin-top: 5em;
+}
+
+/* line 8, ../../sass/components/utilities.scss */
+.margin-top-10 {
+  margin-top: 10em;
+}
+
+/* line 10, ../../sass/components/utilities.scss */
+.margin-bottom-5 {
+  margin-bottom: 5em;
+}
+
+/* line 11, ../../sass/components/utilities.scss */
+.margin-bottom-8 {
+  margin-bottom: 8em;
+}
+
+/* line 14, ../../sass/components/utilities.scss */
 .padding-20 {
   padding: 20px;
 }
 
-/* line 8, ../../sass/components/utilities.scss */
+/* line 16, ../../sass/components/utilities.scss */
+.height-160 {
+  height: 160px;
+}
+
+/* line 17, ../../sass/components/utilities.scss */
 .height-200 {
   height: 200px;
 }
 
-/* line 9, ../../sass/components/utilities.scss */
+/* line 18, ../../sass/components/utilities.scss */
+.height-250 {
+  height: 250px;
+}
+
+/* line 19, ../../sass/components/utilities.scss */
 .height-600 {
   height: 600px;
 }
 
-/* line 13, ../../sass/components/utilities.scss */
+/* line 20, ../../sass/components/utilities.scss */
+.height-30vh {
+  height: 30vh;
+}
+
+/* line 24, ../../sass/components/utilities.scss */
+.width-100 {
+  width: 100%;
+}
+
+/* line 25, ../../sass/components/utilities.scss */
 .padding-sides-10 {
   padding: 0 10em;
 }
 
 /*TEXT-STYLES*/
-/* line 17, ../../sass/components/utilities.scss */
+/* line 29, ../../sass/components/utilities.scss */
 .message-text {
   color: #FFFFFF;
   font-family: 'Nunito', sans-serif;
@@ -42,34 +87,56 @@
   text-align: center;
 }
 
-/* line 25, ../../sass/components/utilities.scss */
+/* line 37, ../../sass/components/utilities.scss */
 .text-intro {
   color: #FFFFFF;
   font-family: 'Nunito', sans-serif;
   text-align: center;
 }
 
-/* line 30, ../../sass/components/utilities.scss */
-h1 {
-  color: #00545F;
+/* line 42, ../../sass/components/utilities.scss */
+h1, h2 {
+  color: #FFFFFF;
   font-family: 'Nunito', sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 3.2rem;
+  margin: auto;
 }
 
-/* line 37, ../../sass/components/utilities.scss */
+/*h1.referral{display: none!important;}*/
+/* line 52, ../../sass/components/utilities.scss */
 a.j-blog {
   display: none;
 }
 
+/* line 56, ../../sass/components/utilities.scss */
+.icon-values {
+  font-size: 6em !important;
+  color: #ED0B12;
+}
+
+/* line 61, ../../sass/components/utilities.scss */
+.text-values {
+  color: #00545F;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+}
+
 /* IMAGES-STYLE*/
-/* line 44, ../../sass/components/utilities.scss */
+/* line 69, ../../sass/components/utilities.scss */
 .black-filter {
   background-color: rgba(0, 0, 0, 0.5);
   height: 100vh;
 }
 
-/* line 49, ../../sass/components/utilities.scss */
+/* line 73, ../../sass/components/utilities.scss */
+.black-filter-2 {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 160px;
+}
+
+/* line 79, ../../sass/components/utilities.scss */
 .service-1 {
   background-image: url("../images/tlaloc.jpg");
   width: 85%;
@@ -77,4 +144,12 @@ a.j-blog {
   margin: auto;
   transition: box-shadow .25s;
   border-radius: 20%;
+}
+
+/* line 88, ../../sass/components/utilities.scss */
+.banner-titles {
+  background-image: url("../images/cloud.jpg");
+  height: 160px;
+  background-size: cover;
+  background-position: center;
 }
