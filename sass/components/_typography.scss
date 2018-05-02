@@ -58,3 +58,27 @@ small { font-size: 75%; }
     font-size: 1.2rem;
   }
 }
+
+// INTRO
+@media #{$small-and-down} {
+    .padding-sides-2{
+    padding:0 2rem;}
+    .text-intro{
+    font-size: 2rem;}
+  }
+  
+  
+@media #{$medium-and-up} {
+  .padding-sides-2{
+    padding:0 6rem;}
+    .text-intro{
+    font-size: 2rem;}
+  }
+@media #{$large-and-up} {
+    .padding-sides-2{
+      padding: 0 20rem;
+    }
+    .text-intro{
+    font-size: 3rem;}
+  }
+  
