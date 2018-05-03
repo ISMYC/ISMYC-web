@@ -122,21 +122,28 @@ a.j-blog {
   font-size: 2rem;
 }
 
+/* line 67, ../../sass/components/utilities.scss */
+.text-services {
+  color: #00545F;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5rem;
+}
+
 /* IMAGES-STYLE*/
-/* line 69, ../../sass/components/utilities.scss */
+/* line 74, ../../sass/components/utilities.scss */
 .black-filter {
   background-color: rgba(0, 0, 0, 0.5);
   height: 100vh;
 }
 
-/* line 73, ../../sass/components/utilities.scss */
+/* line 78, ../../sass/components/utilities.scss */
 .black-filter-2 {
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 160px;
 }
 
-/* line 79, ../../sass/components/utilities.scss */
+/* line 84, ../../sass/components/utilities.scss */
 .service-1 {
   background-image: url("../images/tlaloc.jpg");
   width: 85%;
@@ -146,7 +153,7 @@ a.j-blog {
   border-radius: 20%;
 }
 
-/* line 88, ../../sass/components/utilities.scss */
+/* line 93, ../../sass/components/utilities.scss */
 .banner-titles {
   background-image: url("../images/cloud.jpg");
   height: 160px;
