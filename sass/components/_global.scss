@@ -795,5 +795,5 @@ td, th{
 
 /*UTILITIES*/
 @media #{$small-and-down} {
-    .height-250{height:200px;}
+    .height-250{height:200px!important;}
   }

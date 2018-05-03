@@ -18,64 +18,74 @@
   margin: 20px;
 }
 
-/* line 7, ../../sass/components/utilities.scss */
+/* line 6, ../../sass/components/utilities.scss */
 .margin-top-5 {
   margin-top: 5em;
 }
 
-/* line 8, ../../sass/components/utilities.scss */
+/* line 7, ../../sass/components/utilities.scss */
 .margin-top-10 {
   margin-top: 10em;
 }
 
-/* line 10, ../../sass/components/utilities.scss */
+/* line 8, ../../sass/components/utilities.scss */
 .margin-bottom-5 {
   margin-bottom: 5em;
 }
 
-/* line 11, ../../sass/components/utilities.scss */
+/* line 9, ../../sass/components/utilities.scss */
 .margin-bottom-8 {
   margin-bottom: 8em;
 }
 
-/* line 14, ../../sass/components/utilities.scss */
+/* line 10, ../../sass/components/utilities.scss */
+.margin-10-25 {
+  margin: 10px 25px !important;
+}
+
+/* line 12, ../../sass/components/utilities.scss */
 .padding-20 {
   padding: 20px;
 }
 
-/* line 16, ../../sass/components/utilities.scss */
+/* line 13, ../../sass/components/utilities.scss */
+.padding-sides-10 {
+  padding: 0 10em;
+}
+
+/* line 15, ../../sass/components/utilities.scss */
 .height-160 {
   height: 160px;
 }
 
-/* line 17, ../../sass/components/utilities.scss */
+/* line 16, ../../sass/components/utilities.scss */
 .height-200 {
   height: 200px;
 }
 
-/* line 18, ../../sass/components/utilities.scss */
+/* line 17, ../../sass/components/utilities.scss */
 .height-250 {
   height: 250px;
 }
 
-/* line 19, ../../sass/components/utilities.scss */
+/* line 18, ../../sass/components/utilities.scss */
 .height-600 {
   height: 600px;
 }
 
-/* line 20, ../../sass/components/utilities.scss */
+/* line 19, ../../sass/components/utilities.scss */
 .height-30vh {
   height: 30vh;
 }
 
-/* line 24, ../../sass/components/utilities.scss */
+/* line 23, ../../sass/components/utilities.scss */
 .width-100 {
   width: 100%;
 }
 
-/* line 25, ../../sass/components/utilities.scss */
-.padding-sides-10 {
-  padding: 0 10em;
+/* line 24, ../../sass/components/utilities.scss */
+.width-30 {
+  width: 30%;
 }
 
 /*TEXT-STYLES*/
@@ -103,26 +113,31 @@ h1, h2 {
   margin: auto;
 }
 
+/* line 50, ../../sass/components/utilities.scss */
+.menu-mobile {
+  margin: 20px 0;
+}
+
 /*h1.referral{display: none!important;}*/
-/* line 52, ../../sass/components/utilities.scss */
+/* line 56, ../../sass/components/utilities.scss */
 a.j-blog {
   display: none;
 }
 
-/* line 56, ../../sass/components/utilities.scss */
+/* line 60, ../../sass/components/utilities.scss */
 .icon-values {
   font-size: 6em !important;
   color: #ED0B12;
 }
 
-/* line 61, ../../sass/components/utilities.scss */
+/* line 65, ../../sass/components/utilities.scss */
 .text-values {
   color: #00545F;
   font-family: 'Nunito', sans-serif;
   font-size: 2rem;
 }
 
-/* line 67, ../../sass/components/utilities.scss */
+/* line 71, ../../sass/components/utilities.scss */
 .text-services {
   color: #00545F;
   font-family: 'Nunito', sans-serif;
@@ -130,20 +145,20 @@ a.j-blog {
 }
 
 /* IMAGES-STYLE*/
-/* line 74, ../../sass/components/utilities.scss */
+/* line 78, ../../sass/components/utilities.scss */
 .black-filter {
   background-color: rgba(0, 0, 0, 0.5);
   height: 100vh;
 }
 
-/* line 78, ../../sass/components/utilities.scss */
+/* line 82, ../../sass/components/utilities.scss */
 .black-filter-2 {
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 160px;
 }
 
-/* line 84, ../../sass/components/utilities.scss */
+/* line 88, ../../sass/components/utilities.scss */
 .service-1 {
   background-image: url("../images/tlaloc.jpg");
   width: 85%;
@@ -153,7 +168,7 @@ a.j-blog {
   border-radius: 20%;
 }
 
-/* line 93, ../../sass/components/utilities.scss */
+/* line 97, ../../sass/components/utilities.scss */
 .banner-titles {
   background-image: url("../images/cloud.jpg");
   height: 160px;

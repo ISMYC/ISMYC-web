@@ -3,15 +3,14 @@
 .margin-auto{margin:auto;}
 .margin-0 {margin: 0;}
 .margin-20 {margin:20px;}
-
 .margin-top-5{margin-top:5em;}
 .margin-top-10{margin-top:10em;}
-
 .margin-bottom-5{margin-bottom:5em;}
 .margin-bottom-8{margin-bottom:8em;}
-
+.margin-10-25{margin:10px 25px!important;}
 
 .padding-20 {padding:20px;}
+.padding-sides-10{ padding: 0 10em;}
 
 .height-160{height:160px;}
 .height-200{height:200px;}
@@ -22,7 +21,8 @@
 
 
 .width-100{width: 100%;}
-.padding-sides-10{ padding: 0 10em;}
+.width-30{width: 30%;}
+
 
 /*TEXT-STYLES*/
 
@@ -45,6 +45,10 @@ h1,h2{
 	font-weight: 400;
 	font-size: 3.2rem;
 	margin:auto;
+}
+
+.menu-mobile{
+	margin:20px 0;
 }
 
 /*h1.referral{display: none!important;}*/
