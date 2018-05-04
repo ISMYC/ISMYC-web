@@ -797,3 +797,12 @@ td, th{
 @media #{$small-and-down} {
     .height-250{height:200px!important;}
   }
+
+@media #{$medium-and-down} {
+  .width-60{width: 40%!important;}
+  .padding-sides-10{padding: 0 3em!important;}
+}
+
+@media #{$medium-and-down} {
+  .em4{width: 20vw;}
+}

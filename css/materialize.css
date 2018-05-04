@@ -1500,12 +1500,12 @@
 
 /* line 14, ../sass/components/_color-classes.scss */
 .green.accent-5 {
-  background-color: #00545F !important;
+  background-color: #005863 !important;
 }
 
 /* line 17, ../sass/components/_color-classes.scss */
 .green-text.text-accent-5 {
-  color: #00545F !important;
+  color: #005863 !important;
 }
 
 /* line 6, ../sass/components/_color-classes.scss */
@@ -3272,7 +3272,7 @@ a {
 blockquote {
   margin: 20px 0;
   padding-left: 1.5rem;
-  border-left: 5px solid #00545F;
+  border-left: 5px solid #005863;
 }
 
 /* line 131, ../sass/components/_global.scss */
@@ -3335,7 +3335,7 @@ video.responsive-video {
 }
 /* line 185, ../sass/components/_global.scss */
 .pagination li.active {
-  background-color: #00545F;
+  background-color: #005863;
 }
 /* line 187, ../sass/components/_global.scss */
 .pagination li.disabled a {
@@ -3580,7 +3580,7 @@ ul.staggered-list li {
 .page-footer {
   padding-top: 20px;
   color: #fff;
-  background-color: #00545F;
+  background-color: #005863;
 }
 /* line 407, ../sass/components/_global.scss */
 .page-footer .footer-copyright {
@@ -3984,6 +3984,23 @@ input[type=range] + .thumb {
   /* line 798, ../sass/components/_global.scss */
   .height-250 {
     height: 200px !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  /* line 802, ../sass/components/_global.scss */
+  .width-60 {
+    width: 40% !important;
+  }
+
+  /* line 803, ../sass/components/_global.scss */
+  .padding-sides-10 {
+    padding: 0 3em !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  /* line 807, ../sass/components/_global.scss */
+  .em4 {
+    width: 20vw;
   }
 }
 /* line 2, ../sass/components/_badges.scss */
@@ -5042,7 +5059,7 @@ table span.badge {
 
 /* line 1, ../sass/components/_navbar.scss */
 nav {
-  color: #00545F;
+  color: #005863;
   background-color: white;
   width: 100%;
   height: 70px;
@@ -5064,7 +5081,7 @@ nav.nav-extended .nav-content {
 }
 /* line 23, ../sass/components/_navbar.scss */
 nav a {
-  color: #00545F;
+  color: #005863;
 }
 /* line 25, ../sass/components/_navbar.scss */
 nav i,
@@ -5105,7 +5122,7 @@ nav .sidenav-trigger i {
 /* line 63, ../sass/components/_navbar.scss */
 nav .brand-logo {
   position: absolute;
-  color: #00545F;
+  color: #005863;
   display: inline-block;
   font-size: 2.1rem;
   padding: 0;
@@ -5172,7 +5189,7 @@ nav ul li.active {
 nav ul a {
   transition: background-color .3s;
   font-size: 1rem;
-  color: #00545F;
+  color: #005863;
   display: block;
   padding: 0 15px;
   cursor: pointer;
@@ -5229,7 +5246,7 @@ nav .input-field label i {
 }
 /* line 185, ../sass/components/_navbar.scss */
 nav .input-field label.active i {
-  color: #00545F;
+  color: #005863;
 }
 
 /* line 191, ../sass/components/_navbar.scss */
@@ -5861,7 +5878,7 @@ small {
 }
 /* line 47, ../sass/components/_tabs.scss */
 .tabs .tab a {
-  color: rgba(0, 84, 95, 0.7);
+  color: rgba(0, 88, 99, 0.7);
   display: block;
   width: 100%;
   height: 100%;
@@ -5873,17 +5890,17 @@ small {
 }
 /* line 48, ../sass/components/_tabs.scss */
 .tabs .tab a:focus, .tabs .tab a:focus.active {
-  background-color: rgba(0, 152, 171, 0.2);
+  background-color: rgba(0, 156, 176, 0.2);
   outline: none;
 }
 /* line 54, ../sass/components/_tabs.scss */
 .tabs .tab a:hover, .tabs .tab a.active {
   background-color: transparent;
-  color: #00545F;
+  color: #005863;
 }
 /* line 71, ../sass/components/_tabs.scss */
 .tabs .tab.disabled a, .tabs .tab.disabled a:hover {
-  color: rgba(0, 84, 95, 0.4);
+  color: rgba(0, 88, 99, 0.4);
   cursor: default;
 }
 /* line 77, ../sass/components/_tabs.scss */
@@ -5891,7 +5908,7 @@ small {
   position: absolute;
   bottom: 0;
   height: 2px;
-  background-color: #0098ab;
+  background-color: #009cb0;
   will-change: left, right;
 }
 
@@ -6289,7 +6306,7 @@ button.btn-floating {
   height: 54px;
   line-height: 54px;
   font-size: 15px;
-  padding: 0 28px;
+  padding: 0 58px;
 }
 /* line 302, ../sass/components/_buttons.scss */
 .btn-large i {
@@ -6958,8 +6975,8 @@ input[type=tel]:not(.browser-default):focus:not([readonly]),
 input[type=number]:not(.browser-default):focus:not([readonly]),
 input[type=search]:not(.browser-default):focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-  border-bottom: 1px solid #D03018;
-  box-shadow: 0 1px 0 0 #D03018;
+  border-bottom: 1px solid #005863;
+  box-shadow: 0 1px 0 0 #005863;
 }
 /* line 61, ../sass/components/forms/_input-fields.scss */
 input:not([type]):focus:not([readonly]) + label,
@@ -6975,7 +6992,7 @@ input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
 input[type=number]:not(.browser-default):focus:not([readonly]) + label,
 input[type=search]:not(.browser-default):focus:not([readonly]) + label,
 textarea.materialize-textarea:focus:not([readonly]) + label {
-  color: #D03018;
+  color: #005863;
 }
 /* line 84, ../sass/components/forms/_input-fields.scss */
 input:not([type]):focus.valid ~ label,
@@ -7299,7 +7316,7 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
 }
 /* line 225, ../sass/components/forms/_input-fields.scss */
 .input-field .prefix.active {
-  color: #D03018;
+  color: #005863;
 }
 /* line 228, ../sass/components/forms/_input-fields.scss */
 .input-field .prefix ~ input,
@@ -7894,7 +7911,7 @@ select {
 }
 /* line 60, ../sass/components/forms/_select.scss */
 .select-wrapper input.select-dropdown:focus {
-  border-bottom: 1px solid #D03018;
+  border-bottom: 1px solid #005863;
 }
 /* line 80, ../sass/components/forms/_select.scss */
 .select-wrapper .caret {
@@ -8238,13 +8255,13 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
 .table-of-contents a:hover {
   color: #a8a8a8;
   padding-left: 15px;
-  border-left: 1px solid #00545F;
+  border-left: 1px solid #005863;
 }
 /* line 27, ../sass/components/_table_of_contents.scss */
 .table-of-contents a.active {
   font-weight: 500;
   padding-left: 14px;
-  border-left: 2px solid #00545F;
+  border-left: 2px solid #005863;
 }
 
 /* line 1, ../sass/components/_sidenav.scss */
@@ -8443,7 +8460,7 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
 /* line 194, ../sass/components/_sidenav.scss */
 .sidenav .collapsible-body > ul:not(.collapsible) > li.active,
 .sidenav.sidenav-fixed .collapsible-body > ul:not(.collapsible) > li.active {
-  background-color: #00545F;
+  background-color: #005863;
 }
 /* line 197, ../sass/components/_sidenav.scss */
 .sidenav .collapsible-body > ul:not(.collapsible) > li.active a,
@@ -9186,7 +9203,7 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
   position: absolute;
   font-size: 1rem;
   border-radius: 50%;
-  background-color: #00545F;
+  background-color: #005863;
   box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.14), 0 10px 50px 0 rgba(0, 0, 0, 0.12), 0 30px 10px -20px rgba(0, 0, 0, 0.2);
   width: 100%;
   height: 100%;
@@ -9741,53 +9758,93 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
   margin: 10px 25px !important;
 }
 
-/* line 12, ../sass/components/utilities.scss */
+/* line 11, ../sass/components/utilities.scss */
+.margin-sides-40 {
+  margin: 0 40px;
+}
+
+/* line 13, ../sass/components/utilities.scss */
+.padding-10 {
+  padding: 10px;
+}
+
+/* line 14, ../sass/components/utilities.scss */
 .padding-20 {
   padding: 20px;
 }
 
-/* line 13, ../sass/components/utilities.scss */
+/* line 15, ../sass/components/utilities.scss */
 .padding-sides-10 {
   padding: 0 10em;
 }
 
-/* line 15, ../sass/components/utilities.scss */
+/* line 16, ../sass/components/utilities.scss */
+.padding-sides-3 {
+  padding: 0 3em !important;
+}
+
+/* line 18, ../sass/components/utilities.scss */
 .height-160 {
   height: 160px;
 }
 
-/* line 16, ../sass/components/utilities.scss */
+/* line 19, ../sass/components/utilities.scss */
 .height-200 {
   height: 200px;
 }
 
-/* line 17, ../sass/components/utilities.scss */
+/* line 20, ../sass/components/utilities.scss */
 .height-250 {
   height: 250px;
 }
 
-/* line 18, ../sass/components/utilities.scss */
+/* line 21, ../sass/components/utilities.scss */
 .height-600 {
   height: 600px;
 }
 
-/* line 19, ../sass/components/utilities.scss */
+/* line 22, ../sass/components/utilities.scss */
 .height-30vh {
   height: 30vh;
 }
 
 /* line 23, ../sass/components/utilities.scss */
+.height-10vh {
+  height: 10vh;
+}
+
+/* line 28, ../sass/components/utilities.scss */
 .width-100 {
   width: 100%;
 }
 
-/* line 24, ../sass/components/utilities.scss */
+/* line 29, ../sass/components/utilities.scss */
+.width-80 {
+  width: 80%;
+}
+
+/* line 30, ../sass/components/utilities.scss */
 .width-30 {
   width: 30%;
 }
 
+/* line 31, ../sass/components/utilities.scss */
+.width-50 {
+  width: 50%;
+}
+
+/* line 32, ../sass/components/utilities.scss */
+.width-60 {
+  width: 60%;
+}
+
 /*TEXT-STYLES*/
-/* line 29, ../sass/components/utilities.scss */
+/* line 35, ../sass/components/utilities.scss */
+.font-3 {
+  font-size: 3em;
+}
+
+/* line 36, ../sass/components/utilities.scss */
 .message-text {
   color: #FFFFFF;
   font-family: 'Nunito', sans-serif;
@@ -9795,14 +9852,21 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
   text-align: center;
 }
 
-/* line 37, ../sass/components/utilities.scss */
+/* line 43, ../sass/components/utilities.scss */
+.text-about {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  font-size: 1em;
+}
+
+/* line 49, ../sass/components/utilities.scss */
 .text-intro {
   color: #FFFFFF;
   font-family: 'Nunito', sans-serif;
   text-align: center;
 }
 
-/* line 42, ../sass/components/utilities.scss */
+/* line 54, ../sass/components/utilities.scss */
 h1, h2 {
   color: #FFFFFF;
   font-family: 'Nunito', sans-serif;
@@ -9811,52 +9875,63 @@ h1, h2 {
   margin: auto;
 }
 
-/* line 50, ../sass/components/utilities.scss */
+/* line 61, ../sass/components/utilities.scss */
+h4 {
+  font-family: 'Nunito', sans-serif;
+}
+
+/* line 65, ../sass/components/utilities.scss */
 .menu-mobile {
   margin: 20px 0;
 }
 
 /*h1.referral{display: none!important;}*/
-/* line 56, ../sass/components/utilities.scss */
+/* line 71, ../sass/components/utilities.scss */
 a.j-blog {
   display: none;
 }
 
-/* line 60, ../sass/components/utilities.scss */
+/* line 75, ../sass/components/utilities.scss */
 .icon-values {
   font-size: 6em !important;
   color: #ED0B12;
 }
 
-/* line 65, ../sass/components/utilities.scss */
+/* line 79, ../sass/components/utilities.scss */
+.icon-about {
+  font-size: 6em !important;
+  color: #005863;
+}
+
+/* line 83, ../sass/components/utilities.scss */
 .text-values {
-  color: #00545F;
+  color: #005863;
   font-family: 'Nunito', sans-serif;
   font-size: 2rem;
 }
 
-/* line 71, ../sass/components/utilities.scss */
+/* line 89, ../sass/components/utilities.scss */
 .text-services {
-  color: #00545F;
+  color: #005863;
   font-family: 'Nunito', sans-serif;
   font-size: 1.5rem;
 }
 
 /* IMAGES-STYLE*/
-/* line 78, ../sass/components/utilities.scss */
+/* line 96, ../sass/components/utilities.scss */
 .black-filter {
   background-color: rgba(0, 0, 0, 0.5);
   height: 100vh;
 }
 
-/* line 82, ../sass/components/utilities.scss */
+/* line 100, ../sass/components/utilities.scss */
 .black-filter-2 {
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 160px;
 }
 
-/* line 88, ../sass/components/utilities.scss */
+/* line 106, ../sass/components/utilities.scss */
 .service-1 {
   background-image: url("../images/tlaloc.jpg");
   width: 85%;
@@ -9866,7 +9941,7 @@ a.j-blog {
   border-radius: 20%;
 }
 
-/* line 97, ../sass/components/utilities.scss */
+/* line 115, ../sass/components/utilities.scss */
 .banner-titles {
   background-image: url("../images/cloud.jpg");
   height: 160px;

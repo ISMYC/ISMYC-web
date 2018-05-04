@@ -8,24 +8,31 @@
 .margin-bottom-5{margin-bottom:5em;}
 .margin-bottom-8{margin-bottom:8em;}
 .margin-10-25{margin:10px 25px!important;}
+.margin-sides-40{margin:0 40px;}
 
+.padding-10 {padding:10px;}
 .padding-20 {padding:20px;}
 .padding-sides-10{ padding: 0 10em;}
+.padding-sides-3{ padding: 0 3em!important;}
 
 .height-160{height:160px;}
 .height-200{height:200px;}
 .height-250{height:250px;}
 .height-600{height:600px;}
 .height-30vh{height:30vh;}
+.height-10vh{height:10vh;}
+
 
 
 
 .width-100{width: 100%;}
+.width-80{width: 80%;}
 .width-30{width: 30%;}
-
+.width-50{width: 50%;}
+.width-60{width: 60%;}
 
 /*TEXT-STYLES*/
-
+.font-3{font-size: 3em;}
 .message-text{
 	color:#FFFFFF;
 	font-family: 'Nunito', sans-serif;
@@ -33,6 +40,11 @@
 	text-align: center;
 }
 
+.text-about{
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+	font-size: 1em;
+}
 
 .text-intro{
 	color:#FFFFFF;
@@ -45,6 +57,9 @@ h1,h2{
 	font-weight: 400;
 	font-size: 3.2rem;
 	margin:auto;
+}
+h4{
+	font-family: 'Nunito', sans-serif;
 }
 
 .menu-mobile{
@@ -61,15 +76,18 @@ a.j-blog{
 	font-size: 6em!important;
 	color:#ED0B12;
 }
-
+.icon-about{
+	font-size: 6em!important;
+	color:#005863;
+}
 .text-values{
-	color:#00545F;
+	color:#005863;
 	font-family: 'Nunito', sans-serif;
 	font-size: 2rem;
 }
 
 .text-services{
-	color:#00545F;
+	color:#005863;
 	font-family: 'Nunito', sans-serif;
 	font-size: 1.5rem;
 }
