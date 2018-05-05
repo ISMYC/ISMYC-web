@@ -1,18 +1,67 @@
 
 <?php
-$destino="mago@ismyc.com";
+if(isset($_POST['email'])) {
+ 
+    // 
+ 
+    $email_to = "mago@ismyc.com";
+ 
+    $email_subject = "Hola Ismyc";
+ 
+    }
 
-$nombre = $_POST['nombre']
-$email=$_POST['email']
-$message = $_POST['message']
+ //En esta parte el valor "name"  sirve para crear las variables que recolectaran la información de cada campo
+ 
+    $first_name = $_POST['nombre']; // requerido
+
+    $email_from = $_POST['email']; // requerido
+ 
+    $message = $_POST['message']; // requerido
 
 
-$headers = "From: $nombre <$email>\r\n";
-$headers ="MIME-Version:1.0;\r\n";
-$headers .="Content-type:text/html; \r\n charset=iso-8859-1; \r\n";
-$headers.= "To: $destino;\r\n";
-
-
-mail('mago@ismyc.com',$destino,$nombre,$project,$budget,$headers);
-
+//Este es el cuerpo del mensaje tal y como llegará al correo
+ 
+    $email_message = "Hola Ismyc.\n\n";
+ 
+ 
+ 
+    function clean_string($string) {
+ 
+      $bad = array("content-type","bcc:","to:","cc:","href");
+ 
+      return str_replace($bad,"",$string);
+ 
+    }
+ 
+ 
+ 
+    $email_message .= "Nombre: ".clean_string($first_name)."\n";
+ 
+    $email_message .= "Email: ".clean_string($email_from)."\n";
+ 
+    $email_message .= "Mensaje: ".clean_string($message)."\n";
+ 
+ 
+//Se crean los encabezados del correo
+ 
+$headers = 'From: '.$email_from."\r\n".
+ 
+'Reply-To: '.$email_from."\r\n" .
+ 
+'X-Mailer: PHP/' . phpversion();
+ 
+@mail($email_to, $email_subject, $email_message, $headers);
+ 
 ?>
+ 
+ 
+ 
+<!-- Mensaje de que fue enviado-->
+ 
+Gracias! Nos pondremos en contacto contigo a la brevedad
+ 
+<?php
+ 
+ 
+?>
+

@@ -9813,38 +9813,48 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
   height: 10vh;
 }
 
-/* line 28, ../sass/components/utilities.scss */
+/* line 25, ../sass/components/utilities.scss */
+.float-right {
+  float: right;
+}
+
+/* line 27, ../sass/components/utilities.scss */
+.width-40 {
+  width: 40vw;
+}
+
+/* line 29, ../sass/components/utilities.scss */
 .width-100 {
   width: 100%;
 }
 
-/* line 29, ../sass/components/utilities.scss */
+/* line 30, ../sass/components/utilities.scss */
 .width-80 {
   width: 80%;
 }
 
-/* line 30, ../sass/components/utilities.scss */
+/* line 31, ../sass/components/utilities.scss */
 .width-30 {
   width: 30%;
 }
 
-/* line 31, ../sass/components/utilities.scss */
+/* line 32, ../sass/components/utilities.scss */
 .width-50 {
   width: 50%;
 }
 
-/* line 32, ../sass/components/utilities.scss */
+/* line 33, ../sass/components/utilities.scss */
 .width-60 {
   width: 60%;
 }
 
 /*TEXT-STYLES*/
-/* line 35, ../sass/components/utilities.scss */
+/* line 36, ../sass/components/utilities.scss */
 .font-3 {
   font-size: 3em;
 }
 
-/* line 36, ../sass/components/utilities.scss */
+/* line 37, ../sass/components/utilities.scss */
 .message-text {
   color: #FFFFFF;
   font-family: 'Nunito', sans-serif;
@@ -9852,21 +9862,21 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
   text-align: center;
 }
 
-/* line 43, ../sass/components/utilities.scss */
+/* line 44, ../sass/components/utilities.scss */
 .text-about {
   font-family: 'Nunito', sans-serif;
   text-align: center;
   font-size: 1em;
 }
 
-/* line 49, ../sass/components/utilities.scss */
+/* line 50, ../sass/components/utilities.scss */
 .text-intro {
   color: #FFFFFF;
   font-family: 'Nunito', sans-serif;
   text-align: center;
 }
 
-/* line 54, ../sass/components/utilities.scss */
+/* line 55, ../sass/components/utilities.scss */
 h1, h2 {
   color: #FFFFFF;
   font-family: 'Nunito', sans-serif;
@@ -9875,42 +9885,42 @@ h1, h2 {
   margin: auto;
 }
 
-/* line 61, ../sass/components/utilities.scss */
+/* line 62, ../sass/components/utilities.scss */
 h4 {
   font-family: 'Nunito', sans-serif;
 }
 
-/* line 65, ../sass/components/utilities.scss */
+/* line 66, ../sass/components/utilities.scss */
 .menu-mobile {
   margin: 20px 0;
 }
 
 /*h1.referral{display: none!important;}*/
-/* line 71, ../sass/components/utilities.scss */
+/* line 72, ../sass/components/utilities.scss */
 a.j-blog {
   display: none;
 }
 
-/* line 75, ../sass/components/utilities.scss */
+/* line 76, ../sass/components/utilities.scss */
 .icon-values {
   font-size: 6em !important;
   color: #ED0B12;
 }
 
-/* line 79, ../sass/components/utilities.scss */
+/* line 80, ../sass/components/utilities.scss */
 .icon-about {
   font-size: 6em !important;
   color: #005863;
 }
 
-/* line 83, ../sass/components/utilities.scss */
+/* line 84, ../sass/components/utilities.scss */
 .text-values {
   color: #005863;
   font-family: 'Nunito', sans-serif;
   font-size: 2rem;
 }
 
-/* line 89, ../sass/components/utilities.scss */
+/* line 90, ../sass/components/utilities.scss */
 .text-services {
   color: #005863;
   font-family: 'Nunito', sans-serif;
@@ -9918,20 +9928,20 @@ a.j-blog {
 }
 
 /* IMAGES-STYLE*/
-/* line 96, ../sass/components/utilities.scss */
+/* line 97, ../sass/components/utilities.scss */
 .black-filter {
   background-color: rgba(0, 0, 0, 0.5);
   height: 100vh;
 }
 
-/* line 100, ../sass/components/utilities.scss */
+/* line 101, ../sass/components/utilities.scss */
 .black-filter-2 {
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 160px;
 }
 
-/* line 106, ../sass/components/utilities.scss */
+/* line 107, ../sass/components/utilities.scss */
 .service-1 {
   background-image: url("../images/tlaloc.jpg");
   width: 85%;
@@ -9941,7 +9951,7 @@ a.j-blog {
   border-radius: 20%;
 }
 
-/* line 115, ../sass/components/utilities.scss */
+/* line 116, ../sass/components/utilities.scss */
 .banner-titles {
   background-image: url("../images/cloud.jpg");
   height: 160px;
