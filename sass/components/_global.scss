@@ -802,6 +802,9 @@ td, th{
   .width-60{width: 40%!important;}
   .padding-sides-10{padding: 0 3em!important;}
 }
+@media #{$medium-and-up} {
+  .top-left-1-80{top: 1%;left: 90%!important;}
+}
 
 @media #{$medium-and-down} {
   .em4{width: 20vw;}
